@@ -29,6 +29,7 @@ namespace InsertCSVDataIntoDB.Controllers
                 var dateTime1 = (DateTime.Now - DateTime.Now.AddDays(-60)).Ticks;
                 var dateTimeString = (DateTime.Now - DateTime.Now.AddDays(-60)).ToString();
                 var dateTime2 = Convert.ToDateTime((DateTime.Now.Date - DateTime.Now.Date.AddDays(-60)).ToString());
+                var QA = "";
             }
             catch(Exception e)
             {
